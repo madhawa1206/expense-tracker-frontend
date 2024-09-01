@@ -133,9 +133,4 @@ Feel free to open issues or submit pull requests if you have any improvements or
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-For any questions or comments, please contact [your-email@example.com](mailto:your-email@example.com).
-```
-
 Feel free to adjust the URL, contact information, or any other details to fit your specific project setup!
