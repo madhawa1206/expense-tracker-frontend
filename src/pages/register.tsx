@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { api } from '../utils/api';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid';
 import CommonPopup from '@/components/CommonPopup';
+import Link from 'next/link';
 
 const validatePassword = (password: string) => {
   const minLength = 8;
@@ -162,9 +163,9 @@ export default function Register() {
           </button>
         </form>
         <div className="mt-4 text-center">
-          <a href="/login" className="text-blue-500 hover:underline">
+          <Link href="/login" className="text-blue-500 hover:underline">
             Login
-          </a>
+          </Link>
         </div>
       </div>
       <CommonPopup
