@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid';
 import { useAuth } from '../hooks/useAuth';
 import CommonPopup from '@/components/CommonPopup';
+import Link from 'next/link';
 
 interface ApiError {
   response?: {
@@ -94,9 +95,9 @@ export default function Login() {
           </button>
         </form>
         <div className="mt-4 text-center">
-          <a href="/register" className="text-blue-500 hover:underline">
+          <Link href="/register" className="text-blue-500 hover:underline">
             Register
-          </a>
+          </Link>
         </div>
         {popupVisible && (
           <CommonPopup
